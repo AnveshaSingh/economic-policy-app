@@ -16,10 +16,10 @@ for model_name in [
    
 ]:
     try:
-        models[model_name] = joblib.load(f'{model_name}.pkl')  # ✅ use joblib.load
-        print(f"✅ Loaded model: {model_name}")
+        models[model_name] = joblib.load(f'{model_name}.pkl')  
+        print(f" Loaded model: {model_name}")
     except Exception as e:
-        print(f"❌ Failed to load model {model_name}: {e}")
+        print(f" Failed to load model {model_name}: {e}")
 
 
 # Base values hardcoded
