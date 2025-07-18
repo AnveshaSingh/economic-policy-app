@@ -16,8 +16,7 @@ import styles from "./ScenarioStyle";
 const screenWidth = Dimensions.get("window").width;
 
 const Scenario2Screen = () => {
-  DropDownPicker.setListMode("SCROLLVIEW");  // ✅ Ensure consistent list mode
-
+  DropDownPicker.setListMode("SCROLLVIEW");
   const scrollViewRef = useRef();
 
   const [open2, setOpen2] = useState(false);
