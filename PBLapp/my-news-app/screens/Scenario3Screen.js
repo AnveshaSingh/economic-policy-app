@@ -206,7 +206,7 @@ const Scenario3Screen = () => {
                       predictionResult.historical["Exports of goods and services (% of GDP)_rf"],
                       predictionResult.historical["Imports of goods and services (% of GDP)_rf.pkl"],
                     ],
-                    color: (opacity = 1) => `rgba(0, 0, 255, ${opacity})`, // 🔵 Historical
+                    color: (opacity = 1) => `rgba(0, 0, 255, ${opacity})`,
                     strokeWidth: 2,
                   },
                   {
@@ -217,7 +217,7 @@ const Scenario3Screen = () => {
                       predictionResult.predictions["Exports of goods and services (% of GDP)_rf"],
                       predictionResult.predictions["Imports of goods and services (% of GDP)_rf"],
                     ],
-                    color: (opacity = 1) => `rgba(0, 128, 0, ${opacity})`, // 🟢 Predicted
+                    color: (opacity = 1) => `rgba(0, 128, 0, ${opacity})`,
                     strokeWidth: 2,
                   },
                 ],
