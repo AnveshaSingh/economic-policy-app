@@ -8,7 +8,7 @@ const ScenarioStyle = StyleSheet.create({
   title: {
     fontSize: 22,
     fontWeight: "bold",
-    color: "#00796b", // Dark greenish-blue text
+    color: "#00796b",
     marginBottom: 20,
   },
   picker: {
@@ -39,7 +39,7 @@ const ScenarioStyle = StyleSheet.create({
     marginTop: 20,
     fontSize: 16,
     fontWeight: "bold",
-    color: "#004d40", // Darker shade of greenish-blue
+    color: "#004d40",
   },
 });
 
