@@ -6,7 +6,7 @@ import {
   Image,
   TouchableOpacity,
 } from "react-native";
-import styles from "../AppStyle"; // Import styles
+import styles from "../AppStyle";
 
 const NEWS_API_NY = `https://api.nytimes.com/svc/topstories/v2/business.json?api-key=93JpdasLVdb77SMBxd0l1UAxZgwMMNOi`;
 const NEWS_API_GUARDIAN = `https://content.guardianapis.com/search?section=business&page-size=50&api-key=d25ca2c2-14d4-439e-ab5d-ed244a0bda53&show-fields=thumbnail,headline`;
