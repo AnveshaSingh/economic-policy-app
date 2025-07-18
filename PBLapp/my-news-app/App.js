@@ -25,7 +25,6 @@ const HomeStack = () => (
   </Stack.Navigator>
 );
 
-// **New** Prediction Stack (Includes ScenarioScreen)
 const PredictionStackScreen = () => (
   <PredictionStack.Navigator>
     <PredictionStack.Screen name="PredictionScreen" component={PredictionScreen} options={{ headerShown: false }} />
