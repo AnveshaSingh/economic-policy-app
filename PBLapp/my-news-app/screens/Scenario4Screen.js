@@ -121,7 +121,6 @@ const Scenario4Screen = () => {
     return summary;
   };
 
-  // Avoid using scrollView with flatList as it causes performance issues
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === "ios" ? "padding" : undefined}
@@ -215,7 +214,7 @@ const Scenario4Screen = () => {
                         predictionResult.predictions["Imports of goods and services (% of GDP)_rf"],
 
                       ],
-                      color: (opacity = 1) => `rgba(0, 128, 0, ${opacity})`, // 🟢 Predicted
+                      color: (opacity = 1) => `rgba(0, 128, 0, ${opacity})`, 
                       strokeWidth: 2,
                     },
                   ],
